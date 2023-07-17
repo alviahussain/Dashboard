@@ -48,22 +48,22 @@ const Navbar = () => {
       
       <div className='flex'>
       <NavButton title='Cart' 
-      customFunc={() =>  handleClick('cart')} 
+      customFunc={() => {}} 
       color={currentColor} icon={<FiShoppingCart />} />
 
       <NavButton title='Chat' 
       dotColor='#03C9D7'
-      customFunc={() => handleClick('chat')} 
+      customFunc={() => {}} 
       color={currentColor} icon={<BsChatLeft />} />
 
       <NavButton title='Notifications' 
       dotColor='#03C9D7'
-      customFunc={() =>  handleClick('notification')} 
+      customFunc={() =>  {}} 
       color={currentColor} icon={<RiNotification3Line />} />
 
       <TooltipComponent content='Profile' position='BottomCenter'>
         <div className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'
-        onClick={() => handleClick('userProfile')}
+        onClick={() => {}}
         >
           <img className='rounded-full w-8 h-8'
           src={avatar}
